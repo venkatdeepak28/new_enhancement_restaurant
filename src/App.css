@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+.res-name{
+    font-weight: bold;
+    margin-left: 3%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-logo{
+    margin-right: 4%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.custom-btn{
+    background-color: transparent;
+    border: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.button-container{
+    display: flex;
+    margin-top: 2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.selected{
+    background-color: transparent;
+    border-bottom-color: red;
+    color: red;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 6px;
+}
+
+.order-para{
+    display: none;
+}
+
+.value-span{
+    background: orange;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -10px;
+    margin-bottom: 50%;
+    border-radius: 50%;
+}
+
+.cart-container{
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 576px) {
+    .button-container{
+        justify-content: space-around;
+    }
+    .order-para{
+        display: block;
+        width: 6vw;
+        
+    }
+    .order-container{
+        margin-right: 3%;
+        display: flex;
+        align-items: center;
+    }
 }
