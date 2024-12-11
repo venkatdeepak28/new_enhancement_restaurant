@@ -67,7 +67,7 @@ const Card = props => {
                 </p>
                 <p className="custom-para">
                   {eachValue.addonCat.length !== 0
-                    ? 'Customization available'
+                    ? 'Customizations available'
                     : ''}
                 </p>
               </div>
