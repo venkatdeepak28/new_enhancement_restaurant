@@ -1,0 +1,30 @@
+.no-cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-para {
+  font-size: 24px;
+}
+
+.cart-list-container {
+  list-style: none;
+}
+.cart-list-element {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70vw;
+  box-shadow: 0 4px 16px 0 #eaebed;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 4%;
+  flex-grow: 2;
+}
+
+.remove-btn {
+  background-color: transparent;
+  border: 0;
+}

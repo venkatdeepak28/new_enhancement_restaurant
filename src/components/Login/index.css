@@ -1,0 +1,35 @@
+.login-container {
+  height: 96vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 6%;
+}
+
+.label-el {
+  margin-bottom: 2%;
+}
+
+.input-el {
+  margin-bottom: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 4%;
+}
+
+.login-btn {
+  margin-top: 7%;
+  margin-right: auto;
+  border: 0;
+  background-color: #405cf5;
+  padding: 5%;
+  color: white;
+  border-radius: 16%;
+}

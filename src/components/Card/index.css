@@ -1,101 +1,109 @@
 .list-container {
-    list-style: none;
-    padding-left: 3%;
-  }
-  
+  list-style: none;
+  padding-left: 3%;
+}
+
+.list-value {
+  height: 38vh;
+  margin-right: 5%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-bottom: 2%;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.dish-name {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.dish-price {
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+.description-para {
+  width: 42vw;
+  font-size: 12px;
+  color: grey;
+}
+
+.add-remove-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.span-button {
+  background-color: green;
+  border: 0;
+  color: white;
+  height: 4vh;
+}
+
+.add-remove-button {
+  background-color: green;
+  border: 0;
+  color: white;
+  width: 3vw;
+  height: 4vh;
+}
+
+.add-button {
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.remove-button {
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.calories-para {
+  margin-left: 2%;
+  color: orange;
+  font-weight: bold;
+  width: 7vw;
+  font-size: 12px;
+}
+
+.custom-para {
+  color: blue;
+  margin-top: 0;
+}
+
+.img-el {
+  height: 100px;
+}
+
+.available-para {
+  color: red;
+}
+
+.add-cart-button {
+  border: 0;
+  background-color: #405cf5;
+  height: 25px;
+  width: 90px;
+  color: white;
+  border-radius: 16px;
+}
+
+@media (max-width: 576px) {
   .list-value {
-    height: 38vh;
-    margin-right: 5%;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    margin-bottom: 2%;
+    height: 40vh;
   }
-  
-  .main-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .inner-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .dish-name {
-    font-weight: bold;
-    margin-bottom: 0;
-  }
-  
-  .dish-price {
-    margin-bottom: 0;
-    font-weight: normal;
-  }
-  
-  .description-para {
-    width: 42vw;
-    font-size: 12px;
-    color: grey;
-  }
-  
-  .add-remove-container {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0;
-  }
-  
-  .span-button {
-    background-color: green;
-    border: 0;
-    color: white;
-    height: 4vh;
-  }
-  
   .add-remove-button {
-    background-color: green;
-    border: 0;
-    color: white;
-    width: 3vw;
-    height: 4vh;
-  }
-  
-  .add-button {
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-  }
-  
-  .remove-button {
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
-  }
-  
-  .calories-para {
-    margin-left: 2%;
-    color: orange;
-    font-weight: bold;
     width: 7vw;
-    font-size: 12px;
   }
-  
-  .custom-para {
-    color: blue;
-    margin-top: 0;
-  }
-  
-  .img-el {
-    height: 100px;
-  }
-  
-  .available-para {
-    color: red;
-  }
-  
-  @media (max-width: 576px) {
-    .list-value {
-      height: 40vh;
-    }
-    .add-remove-button {
-      width: 7vw;
-    }
-  }
-  
+}
